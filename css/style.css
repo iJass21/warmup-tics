@@ -50,3 +50,11 @@ body{
     background-size: cover;
 }
 
+/*          Pagina principal (formulario)      */
+
+.img-hero-principal{
+    height: 450px;
+    background-image: url("/img/hero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
