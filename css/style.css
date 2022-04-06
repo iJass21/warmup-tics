@@ -1,0 +1,52 @@
+/*Configuracion pagina*/
+
+body{
+    background-color: #fff;
+}
+
+
+/*                Utilidades               */
+
+.bg-color-dark{
+    background-color: #343a40 !important;
+}
+
+.margin-top-18{
+    margin-top: 18px;
+}
+
+
+/*            Diseño Pagina general         */
+
+.contenedor-main{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    height: 62px;
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.main{
+    width: 70%;
+    height: 700px;
+    background-color: #fafcfc;
+    opacity: 0.8;
+    border: 1px solid #ccc;
+    margin-top: -300px;
+    margin-bottom: 200px;
+}
+
+/*           index          */
+
+.img-hero-index{
+    height: 450px;
+    background-image: url("/img/hero3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
