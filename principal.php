@@ -39,21 +39,22 @@
       <div class="contenedor-main">
         <div class ="main">
 			<form class="center-screen " data-bitwarden-watching="1">
-				<div class="logtext">Correo electronico </div>
-
-				<input class="login" type="text" placeholder="Usuario"> <br>
-				<div class="logtext" >Contraseña </div>
-				<input class="login" type="password" placeholder="Contraseña"><br>
-				<button class="logbutton">login</button>
+				<?php
+					$meses = array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+					foreach ($meses as $mes) {
+						?>
+						<div class="mes"> <?php echo $mes?></div>
+						<?php
+					}
+				?>
+			
+				<button id="calcular-button" class="button">Calcular</button>
 			</form>
 		</div>
       </div>
-      
       <footer class="footer">
         <p class="margin-top-18">Todos los derechos reservados marcianekecompany®</p>
       </footer>
-
 </body>
-
 </html>
 

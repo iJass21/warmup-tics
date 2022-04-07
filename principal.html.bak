@@ -38,14 +38,7 @@
       
       <div class="contenedor-main">
         <div class ="main">
-			<form class="center-screen " data-bitwarden-watching="1">
-				<div class="logtext">Correo electronico </div>
-
-				<input class="login" type="text" placeholder="Usuario"> <br>
-				<div class="logtext" >Contraseña </div>
-				<input class="login" type="password" placeholder="Contraseña"><br>
-				<button class="logbutton">login</button>
-			</form>
+		
 		</div>
       </div>
       
