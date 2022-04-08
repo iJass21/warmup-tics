@@ -15,30 +15,21 @@
 <body>
     <header class="p-3 text-white bg-color-dark">
         <div class="container">
-          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-            </a>
-    
-            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-              <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Informacion</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">FAQs</a></li>
-              <li><a href="#" class="nav-link px-2 text-white">Acerca de nosotros</a></li>
-            </ul>    
-    
-            <div class="search-container">
-                  <input type="text" placeholder="Buscar" name="search">
-                  <button type="submit">Buscar</button>
-                </form>
-              </div>
-          </div>
-        </div>
-      </header>
+			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+				<a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+					<svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+				</a>
 
-      <div class ="img-hero-principal"></div>
+				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+					<li><a href="index.html" class="nav-link px-2 text-secondary">Home</a></li>
+				</ul>
+			</div>
+        </div>
+	</header>
+
+	<div class ="img-hero-principal"></div>
       
-      <div class="contenedor-main">
+	<div class="contenedor-main">
         <div class ="main">
             <a style="     position: absolute;
             top: 40%;
@@ -49,27 +40,18 @@
             <form class="center-screen " data-bitwarden-watching="1">
                 <div class="logtext">Correo electronico </div>
 
-                <input class="login" type="text" placeholder="Usuario"> <br>
+                <input name="correo" class="login" type="text" placeholder="Correo electronico"> <br>
                 <div class="logtext" >Contraseña </div>
-                <input class="login" type="password" placeholder="Contraseña"><br>
-                <button class="logbutton">login</button>
+                <input name="contrasenia" class="login" type="password" placeholder="Contraseña"><br>
+                <button onclick="location.href='principal.html'" class="logbutton" type="button">login</button>
                 
-                <center> <p>¿No tienes cuenta?<a href="#">Crea una</a></p> </center>
-
-
+                <center> <p>¿No tienes cuenta?<a href="registrar.html">Crea una</a></p> </center>
               </form>
-
-
-
         </div>
-
       </div>
-      
       <footer class="footer">
         <p class="margin-top-18">Todos los derechos reservados marcianekecompany®</p>
       </footer>
-          
 </body>
-
 </html>
 
