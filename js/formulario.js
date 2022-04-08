@@ -22,6 +22,13 @@ function upload(e) {
     }
 }
 
+function download(filename) {
+	var element = document.createElement('a');
+	element.setAttribute('download', filename);
+	document.body.appendChild(element);
+	element.click();
+}
+
 function cargarTabla(filepath) {
 	let matriz = [];
 	var data = null;
@@ -40,6 +47,12 @@ function cargarTabla(filepath) {
 	});
 	
 	return matriz;
+}
+
+function descargarTabla() {
+	// var text = document.getElementById("text").value;
+	var filename = "js/tablaIntervalos.csv";
+	download(filename);
 }
 
 function calcularImpuestos() {
