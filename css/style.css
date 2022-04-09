@@ -33,12 +33,28 @@ body{
 
 .main{
     width: 70%;
-    height: 700px;
+    height: 800px;
     background-color: #fafcfc;
     opacity: 0.8;
     border: 1px solid #ccc;
-    margin-top: -300px;
+    margin-top: -200px;
     margin-bottom: 200px;
+	
+	overflow-y: auto;
+}
+
+.main-principal{
+    width: 70%;
+    height: 1000px;
+    background-color: #fafcfc;
+    opacity: 0.8;
+    border: 1px solid #ccc;
+    margin-top: -200px;
+    margin-bottom: 200px;
+	display: flex;
+	justify-content: center;
+	
+	overflow-y: auto;
 }
 
 /*           index          */
@@ -57,4 +73,84 @@ body{
     background-image: url("/img/hero2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+input.login{
+    margin:10px;
+    width: 500px;
+    height: 50px;
+
+}
+
+.center-screen {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+.logtext{
+    transform: translate(2%, 0);
+}
+
+.logbutton{
+    transform: translate(400%, 0);
+    background-color:gray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input::-webkit-file-upload-button{
+	width: 70%;
+	background-color: #65fb65;
+	border-color: gray;
+	margin-right: 10px;
+}
+
+.uploadbutton{
+	width: 50%;
+	margin-bottom: 25px;
+}
+
+.actionsdiv{
+	display: flex;
+	justify-content: center;
+}
+
+#resultado{
+	display: flex;
+	justify-content: center;
+	font-size: 1.2em;
+}
+
+.calcularbutton{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 50%;
+}
+
+.regbutton{
+    transform: translate(270%, 0);
+    background-color:gray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.Register{
+    width: 70%;
+    height: 900px;
+    background-color: #fafcfc;
+    opacity: 0.8;
+    border: 1px solid #ccc;
+    margin-top: -300px;
+    margin-bottom: 200px;
 }
